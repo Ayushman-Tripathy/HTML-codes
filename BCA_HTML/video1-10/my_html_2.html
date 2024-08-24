@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
-    <link rel="stylesheet" href="my_css_2.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tables</title>
+        <link rel="stylesheet" href="my_css_2.css">
 </head>
 <body>
     <h1>Hellow, World!!!</h1>
-    Tetsing this code and writing from my local repo 
+    <p style="font-size: 30px;">Tetsing this code and writing from my local repo</p> 
     <table>
-        <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Sec</th>
-        </tr>
-        <tr>
-            <td>03</td>
-            <td>Ayushman Tripathy</td>
-            <td>A</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>Amruta Padhi</td>
-            <td>A</td>
-        </tr>
-        <tr>
-            <td rowspan="2">31</td>
-            <td colspan="2">Swadhin Pradhan</td>
-            <td>A</td>
-        </tr>
-        <tr>
-            <!-- <td>01</td> -->
-            <td>Adharsh Naidu</td>
-            <td>B</td>
-        </tr>
+        <caption>My Table</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Sec</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>03</td>
+                <td>Ayushman Tripathy</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Amruta Padhi</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">31</td>
+                <td colspan="2">Swadhin Pradhan</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <!-- <td>01</td> -->
+                <td>Adharsh Naidu</td>
+                <td>B</td>
+            </tr>
+        </tbody>
     </table>
+
+    <!-- Lets learn some list, there are 3 typles of list: ordered list, unordered list, defination list -->
+     
+    <!-- Unordered List -->
+    <ul type="circle">
+        <li>Ayushman</li>
+        <li>Bedant</li>
+        <li>Swadhin</li>
+        <li>Dibakar</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol type="I">
+        <li>Ayushman</li>
+        <li>Bedant</li>
+        <li>Swadhin</li>
+        <li>Dibakar</li>
+    </ol>
+
+    <!-- Defination list -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML is stands for Hyper Text Markup Language</dd>
+        <dt>C Language</dt>
+        <dd>C is a Middle Level Language, </dd>
+    </dl>
 </body>
 </html>
